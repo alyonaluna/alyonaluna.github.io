@@ -1378,9 +1378,6 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
-.cid-qIia8mgjVj {
-  background-image: url("../../../assets/images/green11.jpg");
-}
 .cid-qIieWoha50 {
   padding-top: 60px;
   padding-bottom: 45px;
@@ -1572,7 +1569,7 @@ body {
   margin-bottom: 40px;
 }
 .name-container input{
-  width: 30vw;
+  min-width: 50%;
   border-width: 0 0 1px;
   outline: none;
   font-size: 20px;
@@ -1586,6 +1583,7 @@ body {
 }
 .answers {
   display: inline-block;
+  min-width: 50%;
 }
 .answer-container {
   display: inline;
@@ -1610,6 +1608,17 @@ body {
 }
 .socicon-whatsapp {
   color: green;
+}
+
+@media screen and (min-width: 800px) {
+  .cid-qIia8mgjVj {
+    background-image: url("../../../assets/images/green11.jpg");
+  }
+}
+@media screen and (max-width: 800px) {
+  .cid-qIia8mgjVj {
+    background-image: url("../../../assets/images/green11_mobile.jpg");
+  }
 }
 @media (max-width: 767px) {
   .cid-qIiXzEgfSR .btn {
