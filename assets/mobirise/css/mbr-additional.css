@@ -1582,11 +1582,7 @@ body {
   padding: 1rem 0 0;
 }
 .answers {
-  display: inline-block;
   min-width: 50%;
-}
-.answer-container {
-  display: inline;
 }
 .action {
   border: 1px solid #325B32;
@@ -1599,9 +1595,6 @@ body {
 }
 .action :focus {
   outline: none;
-}
-.yes {
-  margin-right: 90px;
 }
 .mbr-social-likes a {
   font-size: 1.5rem!important;
