@@ -1605,6 +1605,9 @@ body {
 .sparkform-container {
   padding: 0;
 }
+.col-12 {
+  padding: 0;
+}
 
 @media screen and (min-width: 800px) {
   .cid-qIia8mgjVj {
