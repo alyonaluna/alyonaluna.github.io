@@ -1610,16 +1610,52 @@ body {
   color: green;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .cid-qIia8mgjVj {
     background-image: url("../../../assets/images/green11.jpg");
   }
+  .mobile {
+    display: none;
+  }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .cid-qIia8mgjVj {
     background-image: url("../../../assets/images/green11_mobile2.jpg");
     background-position: center top;
     background-size: 100% auto;
+  }
+  .desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 635px) and (max-width: 900px) {
+  .cid-qIia8mgjVj {
+    height: 600px;
+  }
+}
+@media screen and (min-width: 535px) and (max-width: 635px) {
+  .cid-qIia8mgjVj {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 435px) and (max-width: 535px) {
+  .cid-qIia8mgjVj {
+    height: 400px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 435px) {
+  .cid-qIia8mgjVj {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 335px) and (max-width: 375px) {
+  .cid-qIia8mgjVj {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 235px) and (max-width: 335px) {
+  .cid-qIia8mgjVj {
+    height: 250px;
   }
 }
 @media (max-width: 767px) {
