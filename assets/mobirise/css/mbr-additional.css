@@ -1579,6 +1579,7 @@ body {
   border-width: 0 0 1px;
   outline: none;
   font-size: 20px;
+  border-radius: 0;
 }
 .rsvp {
   font-size: 5rem;
