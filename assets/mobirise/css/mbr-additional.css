@@ -19,6 +19,7 @@ body {
 .display-1 {
   font-family: "Tangerine", handwriting;
   font-size: 6rem;
+  color: #232323;
 }
 .display-1 > .mbr-iconfont {
   font-size: 9.6rem;
